@@ -15,7 +15,7 @@
     "build": "ncc build ./src/index.tsx -w -o dist/",
     "prerelease": "rm -rf ./dist/",
     "release": "ncc build ./src/index.tsx -o ./dist/ --minify --no-cache --no-source-map-register",
-    "prepublish": "yarn release"
+    "prepublishOnly": "yarn release"
   },
   "devDependencies": {
     "@types/boxen": "3.0.1",
