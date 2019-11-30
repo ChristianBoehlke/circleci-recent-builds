@@ -6,7 +6,7 @@
 
 Interactive CLI tool that displays recent CircleCI builds.
 
-![Demo](images/demo.gif)
+![Demo](https://raw.githubusercontent.com/ChristianBoehlke/circleci-recent-builds/master/images/demo.gif)
 
 ## Features
 
