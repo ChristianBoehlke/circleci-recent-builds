@@ -6,6 +6,8 @@
 
 Interactive CLI tool that displays recent CircleCI builds.
 
+![Demo](images/demo.gif)
+
 ## Features
 
 - Recent builds will be loaded every 5 seconds to update the UI.
