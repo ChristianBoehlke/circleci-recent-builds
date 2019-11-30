@@ -1,6 +1,6 @@
 {
   "name": "circleci-recent-builds",
-  "version": "0.0.8",
+  "version": "0.0.10",
   "license": "MIT",
   "repository": {
     "url": "https://github.com/ChristianBoehlke/circleci-recent-builds"
