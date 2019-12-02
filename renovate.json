@@ -1,9 +1,6 @@
 {
   "extends": [
-    "config:base"
-  ],
-  "lockFileMaintenance": {
-    "enabled": true,
-    "extends": "schedule:weekly"
-  }
+    "config:base",
+    ":maintainLockFilesWeekly"
+  ]
 }
