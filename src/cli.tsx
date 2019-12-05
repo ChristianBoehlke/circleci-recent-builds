@@ -1,11 +1,11 @@
 import { Color, Text, Box } from 'ink';
 import React, { useState, useEffect } from 'react';
-import Spinner from 'ink-spinner';
 import { getRecentBuilds, RecentBuild, getBuildDetails } from './api';
 import windowSize from 'window-size';
 import { useInterval } from './use_interval';
 import moment from 'moment';
 import { VersionUpdater } from './version_updater';
+import { Spinner } from './spinner';
 
 interface Props {
   token: string;
@@ -52,7 +52,7 @@ export function Cli({ token }: Props) {
   }, [estimatedTimes, recentBuilds, setEstimatesTimes]);
 
   if (recentBuilds === null) {
-    return <Spinner type="dots" />;
+    return <Spinner />;
   }
 
   // Get column width to calculate width of progress bar.
@@ -141,7 +141,7 @@ function Progress(props: ProgressProps) {
   }
 
   if (!estimatedTime) {
-    return <Spinner type="dots" />;
+    return <Spinner />;
   }
 
   const freeSpace = sizeProgress - 10;
