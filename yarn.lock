@@ -70,10 +70,10 @@
   resolved "https://registry.yarnpkg.com/@types/update-notifier/-/update-notifier-2.5.0.tgz#63cfcee92cc915f9a6eea4d1442ec6efd012e118"
   integrity sha512-YV+ZcSIiv30GhLM7WwxI+bsbcW34d3Yhl2JSFBNFL6qtfsoI9++hogxz+jTqeS86ynKcMUE0AsnLWQynfJnsfA==
 
-"@types/window-size@0.2.4":
-  version "0.2.4"
-  resolved "https://registry.yarnpkg.com/@types/window-size/-/window-size-0.2.4.tgz#3a7cddfe027a4d4dc72b6bfc5a6e3969237f64a9"
-  integrity sha1-Onzd/gJ6TU3HK2v8Wm45aSN/ZKk=
+"@types/window-size@0.2.5":
+  version "0.2.5"
+  resolved "https://registry.yarnpkg.com/@types/window-size/-/window-size-0.2.5.tgz#506173de1a08b338699df1eea6e70c3e778512d9"
+  integrity sha512-aWZqgJ9yk9DBKKRfqaIrawLrT7tzfpkMxDv609k80dYskEk96N4wMYXYAOdYUHszCE14Tb0BVgOEqsRaIR2itw==
 
 "@zeit/ncc@0.20.5":
   version "0.20.5"
