@@ -26,7 +26,7 @@
     "@types/react": "16.9.15",
     "@types/update-notifier": "2.5.0",
     "@types/window-size": "0.2.4",
-    "@zeit/ncc": "0.20.5",
+    "@zeit/ncc": "0.22.3",
     "axios": "0.19.0",
     "boxen": "4.1.0",
     "conf": "6.2.0",
