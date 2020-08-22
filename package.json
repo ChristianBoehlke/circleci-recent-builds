@@ -22,7 +22,7 @@
     "@types/chalk": "2.2.0",
     "@types/conf": "3.0.0",
     "@types/ink": "2.0.3",
-    "@types/node": "12.12.14",
+    "@types/node": "12.12.54",
     "@types/react": "16.9.15",
     "@types/update-notifier": "2.5.0",
     "@types/window-size": "0.2.4",
