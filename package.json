@@ -34,7 +34,7 @@
     "moment": "2.24.0",
     "prettier": "1.19.1",
     "react": "16.12.0",
-    "typescript": "3.7.3",
+    "typescript": "4.0.2",
     "window-size": "1.1.1"
   },
   "dependencies": {
