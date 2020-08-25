@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box } from 'ink';
+import { Text } from 'ink';
 import boxen, { BorderStyle } from 'boxen';
 import packageJson from '../package.json';
 import { useState, useEffect } from 'react';
@@ -10,15 +10,9 @@ export function VersionUpdater() {
   const [status, setStatus] = useState<UpdateInfo | undefined>(undefined);
 
   useEffect(() => {
-    updateNotifier({
-      pkg: packageJson,
-      callback: (err, status) => {
-        if (!err) {
-          setStatus(status);
-        }
-      },
-    });
-  }, [packageJson, setStatus]);
+    const notifier = updateNotifier({ pkg: packageJson });
+    Promise.resolve(notifier.fetchInfo()).then(setStatus);
+  }, []);
 
   if (status && status.current !== status.latest) {
     const message =
@@ -31,7 +25,7 @@ export function VersionUpdater() {
       ' to update';
 
     return (
-      <Box>
+      <Text>
         {boxen(message, {
           padding: 1,
           margin: 1,
@@ -39,7 +33,7 @@ export function VersionUpdater() {
           borderColor: 'yellow',
           borderStyle: BorderStyle.Round,
         })}
-      </Box>
+      </Text>
     );
   }
   return null;

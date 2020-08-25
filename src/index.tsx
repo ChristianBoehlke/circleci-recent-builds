@@ -34,7 +34,7 @@ async function run() {
   render(<Cli token={token} />);
 }
 
-run().catch(err => {
+run().catch((err) => {
   console.error(err);
   process.exit(2);
 });
