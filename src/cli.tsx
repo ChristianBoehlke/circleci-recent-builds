@@ -71,7 +71,7 @@ export function Cli({ token }: Props) {
       <VersionUpdater />
       {recentBuilds.map((recentBuild) => (
         <Build
-          key={recentBuild.build_num}
+          key={`${recentBuild.reponame}-${recentBuild.build_num}`}
           build={recentBuild}
           sizeRepo={maxSizeRepo}
           sizeBuildNumber={maxSizeBuildNumber}
