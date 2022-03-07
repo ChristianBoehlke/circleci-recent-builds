@@ -24,6 +24,11 @@
   resolved "https://registry.yarnpkg.com/@types/configstore/-/configstore-4.0.0.tgz#cb718f9507e9ee73782f40d07aaca1cd747e36fa"
   integrity sha512-SvCBBPzOIe/3Tu7jTl2Q8NjITjLmq9m7obzjSyb8PXWWZ31xVK6w4T6v8fOx+lrgQnqk3Yxc00LDolFsSakKCA==
 
+"@types/node@*":
+  version "17.0.21"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.21.tgz#864b987c0c68d07b4345845c3e63b75edd143644"
+  integrity sha512-DBZCJbhII3r90XbQxI8Y9IjjiiOGlZ0Hr32omXIZvwwZ7p4DMMXGrKXVyPfuoBOri9XNtL0UK69jYIBIsRX3QQ==
+
 "@types/node@14.6.0":
   version "14.6.0"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-14.6.0.tgz#7d4411bf5157339337d7cff864d9ff45f177b499"
@@ -50,10 +55,12 @@
     "@types/configstore" "*"
     boxen "^4.2.0"
 
-"@types/window-size@0.2.5":
-  version "0.2.5"
-  resolved "https://registry.yarnpkg.com/@types/window-size/-/window-size-0.2.5.tgz#506173de1a08b338699df1eea6e70c3e778512d9"
-  integrity sha512-aWZqgJ9yk9DBKKRfqaIrawLrT7tzfpkMxDv609k80dYskEk96N4wMYXYAOdYUHszCE14Tb0BVgOEqsRaIR2itw==
+"@types/window-size@1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@types/window-size/-/window-size-1.1.1.tgz#f512dbfc6db4e68e5f8ff57cd3554c73e6abfbbe"
+  integrity sha512-VnZGsa1+aVJqanXkOfGJVS4dv8QOvUQRJtSDdmQ7NxRDL8X9ZI69d1BAj+yvbraQSGbTW1NnpwAI6sJO+P+Cwg==
+  dependencies:
+    "@types/node" "*"
 
 "@types/yoga-layout@1.9.2":
   version "1.9.2"
