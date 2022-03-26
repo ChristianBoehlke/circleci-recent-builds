@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "@types/node": "14.6.0",
-    "@types/react": "16.9.47",
+    "@types/react": "17.0.43",
     "@types/update-notifier": "4.1.1",
     "@types/window-size": "0.2.5",
     "@vercel/ncc": "0.24.0",
