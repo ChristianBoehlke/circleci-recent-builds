@@ -29,7 +29,7 @@
     "ink": "3.0.4",
     "moment": "2.27.0",
     "prettier": "2.1.1",
-    "react": "16.13.1",
+    "react": "18.2.0",
     "typescript": "4.0.2",
     "window-size": "1.1.1"
   },
